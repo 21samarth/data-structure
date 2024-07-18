@@ -13,8 +13,8 @@ void selectionSort(int arr[], int size) {
         swap(arr[i], arr[Index]);
     }
 }
-
-int main() {
+// main function
+int main() { 
     int size;
     cout << "Enter the size of an array: ";
     cin >> size;
